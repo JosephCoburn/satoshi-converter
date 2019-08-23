@@ -1,0 +1,16 @@
+body {
+  margin-top: 20px;
+  background: grey;
+  color: orange; 
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+.card {
+  background: #333;
+  margin: 10px 0;
+  padding: 10px 0;
+}
+
