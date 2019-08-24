@@ -1,1 +1,1 @@
-A simple tool for converting between satoshi and BTC.
+A simple and handy tool to convert between Bitcoin / mBTC / Satoshi. 

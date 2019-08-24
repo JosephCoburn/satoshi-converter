@@ -7,46 +7,68 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="bundle.min.js"></script> 
     <link rel="stylesheet" href="style.css">
     <script defer src="main.js"></script>
   </head>
   <body class="container-fluid">
     <div class="container">
       <div class="row">
-        <div class="col-md-6">
+        <div>
           <h1 class="display-3 text-center">Satoshi Converter</h1>
           <form action="#">
             <div class="form-group">
-              <input 
-                id="btcInput"
-                type="number" 
-                class="form-control col-xs-2"
-                placeholder="Enter BTC value"
-              >
+              <div class="input-align">
+                <div class="beside">
+                  <input 
+                    id="btcInput"
+                    type="number"
+                    class="input-box" 
+                    placeholder="Enter Value..."
+                  >
+                </div>
+                <div class="dropdown beside">
+                  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    BTC
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" id="selectBTC" href="#">BTC</a>
+                    <a class="dropdown-item" id="selectMBTC" href="#">mBTC</a>
+                    <a class="dropdown-item" id="selectSatoshis" href="#">Satoshis</a>
+                  </div>
+                </div>
+              </div>
               <br>
               <div id="output">
                 <div class="card">
                   <div>
                     <h4>Satoshis: </h4>
-                    <div id="satoshiOutput"></div>
+                    <div class="outputs" id="satoshiOutput"></div>
                   </div>
                 </div>
                 <div class="card">
                   <div>
                     <h4>Microbits: </h4>
-                    <div id="microbitOutput"></div>
+                    <div class="outputs" id="microbitOutput"></div>
                   </div>
                 </div>
                 <div class="card">
                   <div>
                     <h4>Millibits: </h4>
-                    <div id="millibitOutput"></div>
+                    <div class="outputs" id="millibitOutput"></div>
                   </div>
                 </div>
                 <div class="card">
-                  <div>
+                  <div class="card-block">
                     <h4>Centibits: </h4>
-                    <div id="centibitOutput"></div>
+                    <div class="outputs" id="centibitOutput"></div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-block">
+                    <h4>BTC: </h4>
+                    <div class="outputs" id="BTCOutput"></div>
                   </div>
                 </div>
               </div>

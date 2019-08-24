@@ -1,11 +1,28 @@
+html {
+  height: 100%;
+}
+
 body {
   margin-top: 20px;
   background: grey;
   color: orange; 
+  height: 100%;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 h1 {
   margin-bottom: 10px;
+}
+
+h4 {
+  margin-top: .5rem;
+  margin-left: 12px;
 }
 
 .card {
@@ -14,3 +31,57 @@ h1 {
   padding: 10px 0;
 }
 
+.beside {
+  display: inline;
+}
+
+.input-align {
+  padding-top: 20px;
+  text-align: center;
+}
+
+.input-box {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: .25rem;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.dropdown-item {
+  text-align: center;
+}
+
+.dropdown-menu {
+  text-align: center;
+}
+
+.outputs {
+  margin-left: 20px;
+  color: white;
+}
+
+.btn-secondary {
+  background-color: #333333;
+  color: orange;
+}
+
+.btn-secondary:hover {
+  background-color: #333333;
+  color: orange;
+}
+
+.btn-secondary:not(:disabled):not(.disabled).active, .btn-secondary:not(:disabled):not(.disabled):active, .show>.btn-secondary.dropdown-toggle {
+  background-color: #333333;
+  color: orange;
+}
