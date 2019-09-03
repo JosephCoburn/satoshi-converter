@@ -5,7 +5,7 @@ html {
 body {
   margin-top: 20px;
   background: grey;
-  color: #E98A0A; 
+  color: #F6931B; 
   height: 100%;
 }
 
@@ -45,7 +45,7 @@ h6 {
 }
 
 .input-box {
-  outline-color: #E98A0A;
+  outline-color: #F6931B;
   display: inline-block;
   font-weight: 400;
   text-align: center;
@@ -85,12 +85,12 @@ input[type=number]::-webkit-outer-spin-button {
 
 .btn-secondary {
   background-color: #333333;
-  color: #E98A0A;
+  color: #F6931B;
 }
 
 .btn-secondary:hover {
   background-color: #333333;
-  color: #E98A0A;
+  color: #F6931B;
 }
 
 footer {
@@ -114,7 +114,7 @@ footer {
 #donateButton1 {
   padding: 4px; 
   padding-left: 8px; 
-  background-color: #E98A0A; 
+  background-color: #F6931B; 
   -webkit-border-radius: 10px; 
   -moz-border-radius: 10px; 
   border-radius: 10px; 
